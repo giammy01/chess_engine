@@ -1,6 +1,7 @@
 from collections import Counter
+import os
 
-with open("cleaned_hungarian_words.txt", "r", encoding="utf-8") as f:
+with open((os.path.join((os.path.dirname(os.path.abspath(__file__))), "words.txt")), "r") as f:
     list = [line.strip() for line in f]  # strip removes \n
 
 # Define banned and required letters

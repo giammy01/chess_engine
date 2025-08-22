@@ -1,10 +1,13 @@
 import instaloader
+from instaloader.exceptions import TwoFactorAuthRequiredException
+import os
 
 # Inizializza Instaloader
 L = instaloader.Instaloader()
 
 username = "_gia_gar_"
 password = "socialSicuro_4"
+
 
 # Carica la sessione precedente se disponibile
 try:
@@ -26,7 +29,7 @@ following = set(followee.username for followee in profile.get_followees())
 # Trova le persone che segui ma che non ti seguono
 non_followers = following - followers
 
-# Stampa i risultati
-print("Le seguenti persone non ti seguono:")
-for user in non_followers:
-    print(user)
+#salva i risultati in un txt
+with open((os.path.join((os.path.dirname(os.path.abspath(__file__))), "output.txt")), "w") as f:
+    for user in non_followers:
+        f.write(user+'\n')
