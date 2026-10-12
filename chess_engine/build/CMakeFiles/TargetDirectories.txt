@@ -1,0 +1,4 @@
+/home/giammy/progetti/PythonProject/chess_engine2/build/CMakeFiles/nitro.dir
+/home/giammy/progetti/PythonProject/chess_engine2/build/CMakeFiles/test.dir
+/home/giammy/progetti/PythonProject/chess_engine2/build/CMakeFiles/edit_cache.dir
+/home/giammy/progetti/PythonProject/chess_engine2/build/CMakeFiles/rebuild_cache.dir

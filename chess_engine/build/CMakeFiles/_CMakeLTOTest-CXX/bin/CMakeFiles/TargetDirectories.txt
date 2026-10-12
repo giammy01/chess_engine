@@ -1,0 +1,4 @@
+/home/giammy/progetti/PythonProject/chess_engine2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/home/giammy/progetti/PythonProject/chess_engine2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/home/giammy/progetti/PythonProject/chess_engine2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/giammy/progetti/PythonProject/chess_engine2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
